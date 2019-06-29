@@ -7,15 +7,15 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
+PRODUCT_BRAND := xiaomi
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_NAME := omni_jasmine_sprout
-PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Mi A2
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MODEL := Mi A2
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=jasmine_sprout \
     BUILD_PRODUCT=jasmine_sprout \
+    PRODUCT_NAME=jasmine_sprout \
     TARGET_DEVICE=jasmine_sprout
 
 PRODUCT_PROPERTY_OVERRIDES += \
