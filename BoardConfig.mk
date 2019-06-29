@@ -97,7 +97,7 @@ TW_INCLUDE_CRYPTO_FBE := true
 
 # TWRP Configuration
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
-TW_DEVICE_VERSION := 5
+#TW_DEVICE_VERSION := 5
 TW_EXCLUDE_TWRPAPP := true
 TW_EXTRA_LANGUAGES := true
 #TW_HAS_EDL_MODE := true
@@ -115,8 +115,8 @@ TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 
 # Extras
-USE_RECOVERY_INSTALLER := true
-RECOVERY_INSTALLER_PATH := $(LOCAL_PATH)/installer
+#USE_RECOVERY_INSTALLER := true
+#RECOVERY_INSTALLER_PATH := $(LOCAL_PATH)/installer
 
 # Android Verified Boot
 #BOARD_AVB_ENABLE := false
